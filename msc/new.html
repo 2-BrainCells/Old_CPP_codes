@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="new.css" /> -->
+    <title>Home | Hotel</title>
+</head>
+<!-- Head contains all the css links , javascript files
+this program is made with html and css only without any library or framework -->
+
+<body bgcolor="#F0FFFF">
+    <!-- bg color changes the background color of the web page , html color code is used to represent a specific colour-->
+    <div class="main-container">
+        <!-- A division created specifically for its components-->
+        <img src="https://images.unsplash.com/photo-1552566626-52f8b828add9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" class="main-container-img" alt="Home Img" />
+        <div class="main-container-dark"></div>
+        <div class="text-block">
+            <h1>VINTAGE RESTAURANT</h1>
+        </div>
+        <!-- Nav Bar -->
+        <!-- <a href="url"> </a> tag is used to create clickable link which refers to the url which is equal to href-->
+        <nav class="nav">
+            <a href="/index.html">
+                <h3 class="logo">LOGO</h3>
+            </a>
+            <ul class="links">
+                <li><a href="/msc/index.html">Home</a></li>
+                <li><a href="/msc/about.html">About</a></li>
+                <li><a href="contact.html">Service</a></li>
+                <li><a href="booking.html">Contact</a></li>
+            </ul>
+        </nav>
+
+    </div>
+    <!-- Search Bar -->
+    <div class="search-bar">
+        <input id="searchbox" type="text" placeholder="Search..." />
+    </div>
+
+    <!--Heading of card-->
+    <h2 class="fooditem">Food Items</h2>
+    <hr width="20%" />
+    <!-- Items Card
+    items card box creates a card outer layer
+items card creates a card layer inside 
+item card img fits the given image to inner card layer 
+item card text represents the text inside the card-->
+    <div class="items-card-box">
+        <div class="items-card">
+            <div class="items-card-img">
+                <img src="https://www.chefkunalkapur.com/wp-content/uploads/2021/03/Gosht-Biryani-1300x868.jpeg?v=1625193165" alt="Burger" />
+            </div>
+            <div class="items-card-text">
+                <h3>Biryani</h3>
+
+                <p class="price">₹ 250</p>
+            </div>
+        </div>
+        <div class="items-card">
+            <div class="items-card-img">
+                <img src="https://img.onmanorama.com/content/dam/mm/en/food/features/images/2021/10/17/pizza.jpg" alt="Burger" />
+            </div>
+            <div class="items-card-text">
+                <h3>Pizza</h3>
+
+                <p class="price">₹ 499</p>
+            </div>
+        </div>
+        <div class="items-card">
+            <div class="items-card-img">
+                <img src="https://www.chilitochoc.com/wp-content/uploads/2021/03/Desi-Chow-Mein-featured.jpg" alt="Burger" />
+            </div>
+            <div class="items-card-text">
+                <h3>Chowmein</h3>
+                <p class="price">₹ 150</p>
+            </div>
+        </div>
+        <div class="items-card">
+            <div class="items-card-img">
+                <img src="https://www.thespruceeats.com/thmb/A_g1pdGtPZBJyJ9ycu18iDzegL4=/1887x1415/smart/filters:no_upscale()/idli-56a510b63df78cf772862c34.jpg" alt="Burger" />
+            </div>
+            <div class="items-card-text">
+                <h3>Idli</h3>
+
+                <p class="price">₹ 200</p>
+            </div>
+        </div>
+    </div>
+    <!-- padding creates some space on the borders of the object
+hr tag creates horizontal line-->
+    <h2 style="padding: 1rem;">How our journey begun</h2>
+    <hr width="20%" />
+    <h3 style="text-align: center; padding: 40px; padding-bottom: 40px;">Cras ut viverra eros. Phasellus sollicitudin sapien id luctus tempor. Sed hend rerit inter dum sagittis. Donec nunc lacus, dapibus nec interdum eget, ultrices eget justo. Nam purus lacus, efficitur eget laoreet sed, finibus nec neque. Cras eget enim
+        in diam dapibus sagittis. In massa est, dignissim in libero ac, fringilla ornare mi. Etiam interdum ligula purus.
+
+        <br> Ultrices eget justo. Nam purus lacus, efficitur eget laoreet sed, finibus nec neque. Cras eget enim in diam dapibus sagittis. In massa est, dignissim in libero ac, fringilla ornare.<br></h3>
+
+
+    <!-- Footer -->
+    <div class="footer">
+        <div>Footer</div>
+        <div>Footer</div>
+    </div>
+
+    <!-- Scroll to top -->
+    <div class="scroll-to-top" onclick="scrollToTop()">
+        <img src="https://img.icons8.com/fluency/32/000000/collapse-arrow.png" />
+    </div>
+    <script type="text/javascript" src="./js/index.js"></script>
+</body>
+
+</html>

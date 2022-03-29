@@ -1,1 +1,1 @@
-while (n > 0)
+                // printf(" %d%d ", i, j);

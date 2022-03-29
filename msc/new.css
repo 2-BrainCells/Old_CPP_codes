@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    min-height: 100vh;
+    font-family: Poppins, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.main-container {
+    width: 100%;
+    height: 100vh;
+    z-index: -2;
+    position: relative;
+}
+
+.text-block {
+    position: absolute;
+    bottom: 520px;
+    right: 570px;
+    background-color: black;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.main-container-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.main-container-dark {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 25rem;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    opacity: 0.5;
+}
+
+.nav {
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    color: white;
+    padding-right: 6rem;
+    padding-left: 6rem;
+}
+
+.links {
+    display: flex;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-left: 1rem;
+}
+
+.links li {
+    margin-right: 2rem;
+}
+
+#searchbox {
+    border-radius: 40px;
+    width: 28rem;
+}
+
+.search-bar {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    top: 23rem;
+}
+
+.search-bar>input {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    /* min-width: 30rem;
+  height: 3rem;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: white;
+  padding-left: 1rem;
+  font-size: 1.5rem;
+  color: black; */
+}
+
+.items-card-box {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    gap: 2rem;
+}
+
+#title {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.fooditem {
+    padding-top: 2rem;
+    padding-left: 2rem;
+}
+
+.items-card {
+    padding: 1rem;
+    border-radius: 1.5rem;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.items-card-img {
+    width: 15rem;
+    height: 15rem;
+    object-fit: cover;
+}
+
+.items-card-img>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}
+
+.items-card-text {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+
+.price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.footer {
+    width: 100%;
+    height: 37rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    bottom: 0;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    padding-right: 6rem;
+    padding-left: 6rem;
+}
+
+.scroll-to-top {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    z-index: 1;
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    cursor: pointer;
+}

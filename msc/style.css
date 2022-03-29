@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: auto;
+}
+
+.hue
+{
+    color: darkgreen;
+    background: rgb(161, 235, 194);
+}
+body
+{
+    height: 500px;
+    background-image: url("https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832_960_720.jpg");
+    background-repeat: no-repeat;
+    background-size: contain ;
+}
