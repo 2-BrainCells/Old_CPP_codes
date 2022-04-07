@@ -1,17 +1,45 @@
-*{
+* {
     margin: 0;
     padding: auto;
 }
 
-.hue
-{
+.hue {
     color: darkgreen;
     background: rgb(161, 235, 194);
 }
-body
-{
+
+body {
     height: 500px;
-    background-image: url("https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832_960_720.jpg");
+    /* background-image: url("https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832_960_720.jpg"); */
     background-repeat: no-repeat;
-    background-size: contain ;
+    background-size: contain;
+}
+
+.container {
+    font-size: 12px;
+}
+
+.box1 {
+    font-size: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 2em;
+    font-weight: bold;
+    font-style: normal;
+}
+
+#firstpara {
+    color: aqua;
+}
+
+#secondpara {
+    color: rgb(120, 2, 255);
+    background-color: rgb(212, 165, 189);
+}
+.boxmodel
+{
+    height: 40px;
+    width: 1448px;
+    background-color: azure;
+    border: 3px solid black;
+
 }
