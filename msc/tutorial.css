@@ -1,0 +1,9 @@
+p{
+    color: green;  
+    background-color: darkgray;
+    /* inline css > internal > external */
+}    
+#redelement{
+    color: beige;
+    background-color: darkred;
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            color: whitesmoke;
+
+
+        }
+
+        section {
+            margin: 3px 23px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            /* border: 2px solid red; */
+            height: 334px;
+            justify-content: center;
+        }
+
+        .navigation {
+            font-size: 20px;
+            display: flex;
+        }
+
+        li {
+            list-style: none;
+            padding: 34px 23px;
+        }
+
+        section::after {
+            content: "this is a content";
+        }
+
+        p {
+            text-align: center;
+        }
+
+        header::before {
+            background: url(https://images.unsplash.com/photo-1650231908205-4c600b282c23?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2071&q=80) no-repeat center center;
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            top: 0;
+            left: 0;
+            opacity: 0.4;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="navigation">
+                <li class="item">Home</li>
+                <li class="item">About</li>
+                <li class="item">Services</li>
+                <li class="item">Contact Us</li>
+            </ul>
+        </nav>
+        <section>
+            <h1>Welcome to Coding World</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia, ullam tenetur! Facere dolor nostrum
+                laborum odit neque sunt eum asperiores dignissimos soluta iure qui consectetur, ipsa quisquam optio illo
+                illum voluptatum commodi rem provident.</p>
+        </section>
+        <hr>
+    </header>
+</body>
+
+</html>

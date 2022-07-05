@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym</title>
+    <style>
+        * {
+            margin: 10px;
+            padding: 0px;
+        }
+
+        body {
+            margin: 0px;
+            padding: 0px;
+            background: url('https://cdn.pixabay.com/photo/2016/12/29/18/44/background-1939128_960_720.jpg');
+        }
+
+        .left {
+            /* border: 2px solid red; */
+            display: inline-block;
+            position: absolute;
+            left: 30px;
+            top: 20px;
+        }
+
+        .left img {
+            width: 100px;
+        }
+
+        .left div {
+            color: wheat;
+            text-align: center;
+        }
+
+        .right {
+            display: inline-block;
+            /* border: 2px solid green; */
+            position: absolute;
+            right: 30px;
+            top: 20px;
+        }
+
+        .center {
+            /* border: 2px solid blue; */
+            display: block;
+            width: 33%;
+            margin: 20px auto;
+
+        }
+
+        .navbar {
+            position: sticky;
+            display: inline-block;
+        }
+
+        .navbar li {
+            display: inline-block;
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            /* padding: 34px; */
+            font-size: 20px;
+        }
+
+        .navbar li a:hover,
+        .navbar li a.active {
+            color: rgb(59, 229, 232);
+        }
+
+        button {
+            padding: 8px;
+            background-color: rgb(0, 0, 0);
+            border-radius: 12px;
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        button:hover{
+            background-color: rgb(56, 54, 54);
+        }
+        .container {
+            /* border: 3px solid white; */
+            color: white;
+            width: 40%;
+            top: 30px;
+            position: relative;
+            margin: auto;
+            padding: 20px;
+            border-radius: 25px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+        }
+
+        .container h1 {
+            text-align: center;
+        }
+
+        .formgroup input {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            text-align: center;
+            display: block;
+            font-size: 20px;
+            width: 240px;
+            margin: 15px auto;
+        }
+
+        .submit {
+            display: block;
+            margin: 25px auto;
+            width: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="https://cdn.vectorstock.com/i/1000x1000/98/64/fitness-gym-logo-with-strong-athlete-and-barbell-vector-24189864.webp"
+                alt="" id="logo">
+            <div>Harry Fitness</div>
+        </div>
+
+        <div class="center">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About US</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Fitness</a></li>
+            </ul>
+        </div>
+
+        <div class="right">
+            <button>Email Us</button>
+            <button>Contact Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join Today</h1>
+        <form action="noaction.php">
+            <div class="formgroup">
+                <input type="text" name="" id="" placeholder="Enter your Name">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" id="" placeholder="Enter your Name">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" id="" placeholder="Enter your Name">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" id="" placeholder="Enter your Name">
+            </div>
+            <button class="submit">Submit</button>
+    </div>
+    </form>
+    </div>
+</body>
+
+</html>

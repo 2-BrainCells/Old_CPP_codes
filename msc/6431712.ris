@@ -1,0 +1,18 @@
+TY  - JOUR
+A2  - Lu, Cheng
+AU  - Yujun, Yang
+AU  - Yimei, Yang
+AU  - Jianhua, Xiao
+PY  - 2020
+DA  - 2020/12/04
+TI  - A Hybrid Prediction Method for Stock Price Using LSTM and Ensemble EMD
+SP  - 6431712
+VL  - 2020
+AB  - The stock market is a chaotic, complex, and dynamic financial market. The prediction of future stock prices is a concern and controversial research issue for researchers. More and more analysis and prediction methods are proposed by researchers. We proposed a hybrid method for the prediction of future stock prices using LSTM and ensemble EMD in this paper. We use comprehensive EMD to decompose the complex original stock price time series into several subsequences which are smoother, more regular and stable than the original time series. Then, we use the LSTM method to train and predict each subsequence. Finally, we obtained the prediction values of the original stock price time series by fused the prediction values of several subsequences. In the experiment, we selected five data to fully test the performance of the method. The comparison results with the other four prediction methods show that the predicted values show higher accuracy. The hybrid prediction method we proposed is effective and accurate in future stock price prediction. Hence, the hybrid prediction method has practical application and reference value.
+SN  - 1076-2787
+UR  - https://doi.org/10.1155/2020/6431712
+DO  - 10.1155/2020/6431712
+JF  - Complexity
+PB  - Hindawi
+KW  - 
+ER  - 
