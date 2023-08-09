@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    /* font-family: 'Edu SA Beginner', cursive; */
+    background-image: url("mark-tegethoff-NMLv5HQZnK4-unsplash.jpg");
+    background-size: cover;
+    min-height: 100vh;
+    /* background-position: center center; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+h1 {
+    font-size: 6rem;
+    margin-top: -8rem;
+}
+
+.countdown-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.big-text {
+    font-size: 6rem;
+    line-height: 2;
+    font-weight: bold;
+    margin: 0 2rem;
+}
+
+.countdown-el {
+    text-align: center;
+}
+
+.countdown-el span {
+    font-size: 2rem;
+    font-weight: bolder;
+}

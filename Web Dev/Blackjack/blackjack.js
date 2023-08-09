@@ -16,7 +16,7 @@ let cardEl = document.querySelector('#cards-el')
 let startBtn = document.getElementById('start-btn')
 
 let player = {
-    Name: "Abhinav",
+    Name: "Aakash",
     Chips: 143
 }
 

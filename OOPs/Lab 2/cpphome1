@@ -1,0 +1,34 @@
+1.	Write a program in C++ to print the following pattern. 
+Sample Output:
+		xxxxx                                                                                                        
+		x     x       x        x                                                                                      
+		x             x        x                                                                                      
+		x          xxxxxxx  xxxxxxx                                                                                   
+		x             x        x                                                                                      
+		x     x       x        x                                                                                      
+		xxxxx  
+		
+2.	Write a program in C++ to print the code (ASCII code / Unicode code etc.) of a given character. 
+
+3.	Write a program in C++ to calculate the volume of a cylinder.
+
+4.	Write a program in C++ to enter length in centimeter and convert it into meter and kilometer. 
+
+5.	Write a program in C++ to enter two angles of a triangle and find the third angle. 
+
+6.	Write a program in C++ to check whether a number is positive, negative or zero.
+
+7.	Write a program in C++ that takes a number as input and prints its multiplication table upto 10.
+
+8.	Write a program in C++ which accepts the user's first and last name and print them in reverse order with a space between them.
+
+9.	Write a program in C++ to calculate the sum of all even and odd numbers in an array. 
+
+10.	Write a program in C++ to add two binary numbers.
+Sample Output:
+Addition of two binary numbers:
+-----------------------------------
+Input the 1st binary number: 1010
+Input the 2nd binary number: 0011
+The sum of two binary numbers is: 1101
+ 
